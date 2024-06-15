@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form.php" method="POST">
+        <p>Name: <input type="text" name="name"><br/></p>
+        <p>District: 
+        <select name="district[]">
+            <option value="Colombo">Colombo</option>
+            <option value="Gampaha">Gampaha</option>
+            <option value="Kalutara">Kalutara</option>
+        </select>
+        </p>
+        <p>Gender: Male<input type="radio" name="gender" value="male"> Female<input type="radio" name="gender" value="female"></p>
+        <p>Social Platforms: <input type="checkbox" value="facebook" name="social[]">FaceBook
+                             <input type="checkbox" value="tiktok" name="social[]">TikTok
+        </p>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+</body>
+</html>
